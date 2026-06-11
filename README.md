@@ -35,4 +35,4 @@ A web-based task management application built with React JS.
 
 ## Deployment
 
-Deployed on Vercel: [Live Link]
+Deployed on Vercel: task-manager-mxy2jro8p-vedas-projects-fb3c9b1c.vercel.app
