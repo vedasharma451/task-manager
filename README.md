@@ -27,12 +27,3 @@ A web-based task management application built with React JS.
 2. Run `npm install`
 3. Run `npm start`
 4. Open `http://localhost:3000`
-
-## Test Credentials
-
-- Email: sara@example.com
-- Password: user123
-
-## Deployment
-
-Deployed on Vercel: task-manager-mxy2jro8p-vedas-projects-fb3c9b1c.vercel.app
