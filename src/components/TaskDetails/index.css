@@ -1,0 +1,113 @@
+.detail-wrap {
+  display: flex;
+  min-height: 100vh;
+}
+
+.detail-body {
+  flex: 1;
+  background-color: #f1f5f9;
+  padding: 28px 38px;
+}
+
+.not-found {
+  font-size: 17px;
+  color: #64748b;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.back-btn {
+  background: none;
+  color: #6366f1;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 18px;
+  display: block;
+}
+
+.p-badge {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 18px;
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.high-badge {
+  background-color: #fee2e2;
+  color: #ef4444;
+}
+
+.med-badge {
+  background-color: #fef3c7;
+  color: #f59e0b;
+}
+
+.low-badge {
+  background-color: #dcfce7;
+  color: #22c55e;
+}
+
+.detail-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+.info-card {
+  background-color: #ffffff;
+  border-radius: 9px;
+  padding:20px;
+  margin-bottom: 10px;
+  max-width: 740px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  width: 110px;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.info-val {
+  font-size: 13px;
+  color: #475569;
+}
+
+.bold-val {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.desc-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding:20px;
+  max-width: 740px;
+}
+
+.desc-top {
+  font-size: 10px;
+  font-weight: 700;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.desc-body {
+  font-size: 14px;
+  color: #475569;
+}

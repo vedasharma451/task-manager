@@ -1,0 +1,102 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 9px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.p-badge {
+  font-size: 10px;
+  font-weight: 500;
+  padding:13px;
+  border-radius: 20px;
+}
+
+.high-badge {
+  background-color: #fee2e2;
+  color: #ef4444;
+}
+
+.med-badge {
+  background-color: #fef3c7;
+  color: #f59e0b;
+}
+
+.low-badge {
+  background-color: #dcfce7;
+  color: #22c55e;
+}
+
+.done-badge {
+  font-size: 12px;
+  font-weight:500;
+  padding: 13px;
+  border-radius: 21px;
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.card-title {
+  font-size: 12px;
+  font-weight:600;
+  color: #1e293b;
+  margin-bottom:5px;
+}
+
+.card-desc {
+  font-size: 10px;
+  color: #64748b;
+  margin-bottom:6px;
+}
+
+.card-date {
+  font-size: 10px;
+  color: #94a3b8;
+  margin-bottom: 12px;
+}
+
+.date-val {
+  font-weight: 400;
+  color: #ef4444;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-drop {
+  flex: 1;
+  padding:12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 10px;
+  outline: none;
+  background-color: #f8fafc;
+  cursor: pointer;
+  color: #475569;
+}
+
+.del-btn {
+  padding:14px;
+  background-color: #ffffff;
+  color: #ef4444;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.del-btn:hover {
+  background-color: #fee2e2;
+}
