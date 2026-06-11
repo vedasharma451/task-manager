@@ -13,6 +13,7 @@ const App = () => (
       <ProtectedRoute exact path="/dashboard" component={Dashboard} />
       <ProtectedRoute exact path="/task/:id" component={TaskDetails} />
       <Route path="/not-found" component={NotFound} />
+      <Redirect exact from="/" to="/login" />
       <Redirect to="/not-found" />
     </Switch>
   </BrowserRouter>
